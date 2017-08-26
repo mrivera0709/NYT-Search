@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title> MARVEL trivia </title>
+    <title> NYT Search </title>
 		
 <!-- === BOOTSTRAP ============================================================ -->	
 	
@@ -21,11 +21,11 @@
 		
 <!-- === CSS ================================================================== -->
 
-		<link rel = "stylesheet" type = "text/css" href = "assets/style.css" />
+		<link rel = "stylesheet" type = "text/css" href = "assets/css/style.css" />
 		
 <!-- === GOOGLE FONTS ========================================================= -->
 
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans+Condensed:700|Open+Sans:300|Permanent+Marker|Raleway:100|Roboto+Condensed:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed|Open+Sans+Condensed:300|Playfair+Display" rel="stylesheet">  
 		
 	</head>
 <!-- ========================================================================== -->
@@ -33,58 +33,28 @@
 <!-- ========================================================================== -->
 	<body>
 		<container>	
-		<div class=row > <!-- Initial Row -->
-		
-<!-- === LEFT CONTENT ========================================================= -->
+		    <div class=row > 
+                <div class=col-md-12 id=header>
+                    <h1> <strong>New York Times</strong> Search </h1>
+                </div>
+            </div>
 
-			<div class=col-md-6 id=side>
-				
-				<div class="row leftRows blank"> </div>
-				
-				<div class="row leftRows"> 																	
-					
-					<div class=col-md-12 id=content>
-						
-						<h1 id=marvel> MARVEL </h1>
-						
-						<h1 id=trivia> trivia </h1>
-						
-						<p id=instructions> 		
-							Think you're a true nerd? 
-									<br><br>
-							Think you can teach Sheldon a thing or two? 
-									<br><br>
-							Lets see how much you know about Marvel Super Heroes!!!
-						</p>
-						
-					</div>
+            <div class=row > 
+                    <div class=col-md-12 id=searchArea>
+                        <button class="btn btn-default" type="submit" id=search >
+                            Button
+                        </button>
 
-				</div>
-				
-				<div class="row leftRows blank"> </div> 
-		
-			</div> 
+                        <p id=content> </p>
+                    </div>
+            </div>
 			
-<!-- === RIGHT CONTENT ======================================================== -->
 			
-			<div class=col-md-6 id=rightSide>
-					
-				<div class=row> 																	
-					
-					<!-- Questions -->
-					<div class=col-md-12 id=rightContent> </div>  
-						
-				</div>
 					
 <!-- === FOOTER =============================================================== -->
-					 	
-				<footer> Copyright 2017 Misael Rivera </footer>	
-			
-			<!-- Close left side -->				
-			</div> 	
-		
-		<!-- Close Initial Row -->	
-		</div> 		
+		    <div>			 	
+		        <footer> Copyright 2017 The Dream Team </footer>	
+		    </div> 		
 	
 		</container>
 		
