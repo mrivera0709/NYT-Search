@@ -1,6 +1,7 @@
 body
     {
-    width:100%
+    width:100%;
+    background:#eee;
     }
 
 #header
@@ -21,16 +22,30 @@ h1
 
     }
 
+#searchTerm, #start, #end
+    {
+    border-radius:0px;
+    }
+
 #searchArea
     {
     padding:40px
     }
 
-.input-append .btn.dropdown-toggle {
+.input-append .btn.dropdown-toggle 
+    {
         float: none;
+        
     }
 
 .input-group, .btn-group
     {
     padding:5px 0;
+    }
+
+footer
+    {
+    position: absolute;
+    bottom:0px;
+    padding:20px;;
     }
