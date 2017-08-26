@@ -1,0 +1,36 @@
+body
+    {
+    width:100%
+    }
+
+#header
+    {
+    background-color:black;
+    margin:0px;
+    padding:30px;
+    }
+
+h1
+    {
+    font-family: 'Playfair Display', serif;
+    font-size:8em;
+    color:white;
+    text-align:center;
+    line-height:1;
+    margin:0px;
+
+    }
+
+#searchArea
+    {
+    padding:40px
+    }
+
+.input-append .btn.dropdown-toggle {
+        float: none;
+    }
+
+.input-group, .btn-group
+    {
+    padding:5px 0;
+    }

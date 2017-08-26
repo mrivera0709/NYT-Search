@@ -40,13 +40,31 @@
             </div>
 
             <div class=row > 
-                    <div class=col-md-12 id=searchArea>
+					<div class=col-md-2 id=blank></div>
+					<div class=col-md-8 id=searchArea>
+                        
+						<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1 searchTerm"> Search Term </span>
+								<input type="text" class="form-control" placeholder=" " aria-describedby="basic-addon1">
+						</div>
+						
+						<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1 start"> Start Year </span>
+								<input type="text" class="form-control" 
+								placeholder="(Optional)" aria-describedby="basic-addon1">
+						</div>
+						<div class="input-group">
+								<span class="input-group-addon" id="basic-addon1 end"> End Year </span>
+								<input type="text" class="form-control" placeholder=" (Optional)" aria-describedby="basic-addon1">
+						</div>
                         <button class="btn btn-default" type="submit" id=search >
-                            Button
-                        </button>
-
-                        <p id=content> </p>
-                    </div>
+								Button
+						</button>
+						<button class="btn btn-default" type="submit" id=clear >
+								Clear Result
+						</button>
+					</div>
+					<div class=col-md-2 id=blank></div>
             </div>
 			
 			
