@@ -34,8 +34,7 @@ h1
 
 .input-append .btn.dropdown-toggle 
     {
-        float: none;
-        
+    float: none;  
     }
 
 .input-group, .btn-group
