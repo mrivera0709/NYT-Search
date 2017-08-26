@@ -16,8 +16,15 @@
     //this is what happens when user clicks the #cat-button 
     $("#cat-button").on("click", function() {
 
+      var q = "&q=" + $("#searchTerm").text();
+  var num = $("#records").text();
+  var begin = "&begin_date=" + $("#start").text();
+  var end = "&end_date=" + $("#end").text();
+  
+
+
       //storing our giphy API URL for a random cat image
-  var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api_key=b9f91d369ff59547cd47b931d8cbc56b:0:74623931";
+  var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api_key=b9f91d369ff59547cd47b931d8cbc56b:0:74623931" + "&q=gorbachev";
 
 
 
