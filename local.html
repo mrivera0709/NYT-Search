@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Magical Cat Button</title>
+</head>
+
+<body>
+
+  <button id="cat-button">magical cat button</button>
+  <div id="images">
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    //this is what happens when user clicks the #cat-button 
+    $("#cat-button").on("click", function() {
+
+      //storing our giphy API URL for a random cat image
+  var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api_key=b9f91d369ff59547cd47b931d8cbc56b:0:74623931";
+
+
+
+  $.ajax({
+        url: queryURL,
+        method: "GET"
+      }).done(function(response) {
+
+
+        console.log(response);
+        
+
+
+
+
+
+      });
+    });
+  </script>
+</body>
+
+</html>
